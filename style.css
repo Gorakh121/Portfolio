@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  transition: background-color 0.5s;
+  font-family: sans-serif;
+  font-weight: 200;
+  width: 100%;
+  color: #ffffff;
+  background-color: black;
+  /* overflow-y: hidden; */
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(23, 15, 15);
+  padding: 5px;
+}
+
+.nav-1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.nav-1 ul {
+  display: flex;
+  position: relative;
+}
+
+.nav-1 ul li {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav-1 ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.nav-1 ul li a:hover {
+  color: rgb(193, 193, 218);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-project {
+  display: none;
+  position: absolute;
+  left: -7px;
+  top: 25px;
+  min-width: 100px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-project a {
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+}
+
+.dropdown-project a:hover {
+  color: #d1b9b9;
+}
+
+.dropdown:hover .dropdown-project {
+  display: block;
+}
+
+.nav-a:hover {
+  color: rgb(167, 167, 197);
+}
+
+.bodyy img {
+  border-radius: 10px;
+  /* border-top-left-radius: 40px; */
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-1 {
+  width: 30%;
+  height: 30%;
+  position: relative;
+  top: 120px;
+  left: 190px;
+}
+
+.image {
+  z-index: 5;
+  max-height: 300px;
+  box-shadow: 30px -19px 9px wheat;
+}
+
+.bodyy img:hover {
+  transform: scale(1.1);
+}
+
+.text {
+  position: relative;
+  left: 590px;
+  bottom: 150px;
+  line-height: 1.5;
+  max-width: 20%;
+}
+
+.text h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+#element {
+  font-size: 2.5rem;
+  font-weight: 200;
+  max-width: 100px;
+  color: rebeccapurple;
+}
+
+.text p {
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.icon {
+  padding: 10px;
+}
+
+.icon a {
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.icon a:hover {
+  color: rgb(189, 189, 214);
+}
+
+
+.about-me{
+  height: 100%;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-462d1fe84b879d730fe2180b0e0354e0.css?vsn=d"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css"
+    />
+  </head>
+  <body>
+    <div class="content" id="content">
+      <nav>
+        <div class="nav-1">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li ><a href="#about-me">About</a></li>
+            <li><a href="">Skills</a></li>
+            <li>
+              <div class="dropdown">
+                <a class="dropbtn" href="">Project</a>
+
+                <div class="dropdown-project">
+                  <a href="./Projects/Project Viber/">Project-1</a>
+                  <a href="./Projects/Project TicTak Game/">Project-2</a>
+                  <a href="./Projects/Dating yes no/">Project-3</a>
+                  <a href="">Project-4</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="bodyy">
+        <div class="img-1">
+          <img class="image" src="images/me.png" alt="" />
+        </div>
+
+        <div class="text">
+          <h1>Hello, Everybody I am</h1>
+          <span id="element"></span>
+          <p>Bsc.Csit student</p>
+          <div class="icon">
+            <a href="https://www.facebook.com/prayasbaral2765"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/theprayasbaral/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://github.com/Prayas121"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Welcome to my portfolio", "It's me", "Prayas Baral"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
