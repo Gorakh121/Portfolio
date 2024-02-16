@@ -57,6 +57,14 @@ nav {
   display: inline-block;
 }
 
+.dropdown button {
+border: none;
+background-color:rgb(23, 15, 15);
+color:white;
+font-size: 16px;
+}
+
+
 .dropdown-project {
   display: none;
   position: absolute;
