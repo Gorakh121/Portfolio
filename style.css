@@ -64,6 +64,10 @@ color:white;
 font-size: 16px;
 }
 
+.dropdown button:hover{
+  color: rgb(193, 193, 218);
+}
+
 
 .dropdown-project {
   display: none;
