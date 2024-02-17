@@ -17,7 +17,17 @@ nav {
   display: flex;
   justify-content: center;
   background-color: rgb(23, 15, 15);
-  padding: 5px;
+}
+
+.logo{
+  position: absolute;
+  left: 22px;
+}
+
+.logo img{
+  width: 70px;
+  height: 75px;
+
 }
 
 .nav-1 {
