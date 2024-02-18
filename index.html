@@ -41,23 +41,22 @@
       rel="stylesheet"
       href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css"
     />
-    <link rel="icon" href="./images/Logo-1.png">
+    <link rel="icon" href="./images/Logo-1.png" />
   </head>
   <body>
     <div class="content" id="content">
       <nav>
-       
         <div class="nav-1">
           <div class="logo">
-            <img src="./images/Logo-1.png" alt="">
+            <a href="#Home"> <img src="./images/Logo-1.png" alt="" /> </a>
           </div>
           <ul>
-            <li><a href="">Home</a></li>
-            <li ><a href="#about-me">About</a></li>
+            <!-- <li><a href="">Home</a></li> -->
+            <li><a href="#pg-2">About</a></li>
             <li><a href="">Skills</a></li>
             <li>
               <div class="dropdown">
-                <button> Project</button>
+                <button>Project</button>
 
                 <div class="dropdown-project">
                   <a href="./Projects/Project Viber/">Project-1</a>
@@ -72,7 +71,7 @@
         </div>
       </nav>
 
-      <div class="bodyy">
+      <div class="bodyy" id="Home">
         <div class="img-1">
           <img class="image" src="images/me.png" alt="" />
         </div>
@@ -91,17 +90,39 @@
             <a href="https://github.com/Prayas121" target="_blank"
               ><i class="fa-brands fa-github"></i
             ></a>
-            <a href="https://wa.me/+9779808095574" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://wa.me/+9779808095574" target="_blank"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
           </div>
         </div>
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+          var typed = new Typed("#element", {
+            strings: ["Welcome to my portfolio", "It's me", "Prayas Baral"],
+            typeSpeed: 50,
+          });
+        </script>
       </div>
     </div>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed("#element", {
-        strings: ["Welcome to my portfolio", "It's me", "Prayas Baral"],
-        typeSpeed: 50,
-      });
-    </script>
+    <div id="pg-2">
+      <div class="aboutme">
+        <p>
+          I am a student in the third semester of the Bachelor of Science in
+          Computer Science and Information Technology (B.Sc CSIT) program at St.
+          Lawrence College, which is affiliated with Tribhuvan University in
+          Kathmandu, Nepal. As a student in the third semester of the B.Sc CSIT
+          program at St. Lawrence College, I am studying various programming
+          languages and technologies. Some of the programming languages, such as
+          HTML, CSS, and Java, are commonly used in web development. C and C++
+          are general-purpose programming languages that are widely used in
+          various fields, including software development, game development, and
+          embedded systems.
+        </p>
+      </div>
+      <div class="img-3">
+        <img src="./images/photoshop.png" alt="" />
+      </div>
+    </div>
   </body>
 </html>

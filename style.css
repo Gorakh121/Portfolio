@@ -7,27 +7,29 @@ body {
   transition: background-color 0.5s;
   font-family: sans-serif;
   font-weight: 200;
-  width: 100%;
   color: #ffffff;
+overflow-x: hidden;
   background-color: black;
-  /* overflow-y: hidden; */
 }
+
 
 nav {
   display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 30;
   justify-content: center;
   background-color: rgb(23, 15, 15);
 }
 
-.logo{
+.logo {
   position: absolute;
   left: 22px;
 }
 
-.logo img{
+.logo img {
   width: 70px;
   height: 75px;
-
 }
 
 .nav-1 {
@@ -68,16 +70,15 @@ nav {
 }
 
 .dropdown button {
-border: none;
-background-color:rgb(23, 15, 15);
-color:white;
-font-size: 16px;
+  border: none;
+  background-color: rgb(23, 15, 15);
+  color: white;
+  font-size: 16px;
 }
 
-.dropdown button:hover{
+.dropdown button:hover {
   color: rgb(193, 193, 218);
 }
-
 
 .dropdown-project {
   display: none;
@@ -109,6 +110,16 @@ font-size: 16px;
   color: rgb(167, 167, 197);
 }
 
+.content{
+  height: 100vh;
+}
+
+.bodyy{
+  box-shadow: 4px 5px 10px rgb(44, 39, 39);
+  height:  95%;
+ 
+}
+
 .bodyy img {
   border-radius: 10px;
   /* border-top-left-radius: 40px; */
@@ -116,8 +127,7 @@ font-size: 16px;
 }
 
 .img-1 {
-  width: 30%;
-  height: 30%;
+
   position: relative;
   top: 120px;
   left: 190px;
@@ -172,6 +182,30 @@ font-size: 16px;
 }
 
 
-.about-me{
-  height: 100%;
+#pg-2{
+  padding: 50px;
+  display: flex;
+  max-width:100%;
+  box-shadow: 4px 5px 10px rgb(44, 39, 39);
 }
+
+
+.img-3{
+  padding: 0px 90px;
+
+}
+.img-3 img{
+  width: 280px;
+  max-height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.aboutme p{
+  line-height: 25px;
+  font-size: 18px; 
+  font-weight: 200;
+  max-width: 70%;
+  word-spacing: 4px;
+}
+
