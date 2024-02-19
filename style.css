@@ -186,14 +186,16 @@ nav {
   padding: 50px;
   display: flex;
   max-width:100%;
-  box-shadow: 4px 5px 10px rgb(44, 39, 39);
+  height: 10%;
 }
-
+.op{
+box-shadow: 4px 5px 10px rgb(44, 39, 39);
+}
 
 .img-3{
   padding: 0px 90px;
-
 }
+
 .img-3 img{
   width: 280px;
   max-height: 280px;
@@ -201,11 +203,16 @@ nav {
   border-radius: 50%;
 }
 
+
 .aboutme p{
   line-height: 25px;
   font-size: 18px; 
   font-weight: 200;
   max-width: 70%;
   word-spacing: 4px;
+}
+
+.txt{
+  padding-top: 10px;
 }
 
