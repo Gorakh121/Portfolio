@@ -34,6 +34,10 @@ Button.forEach((element) => {
         input.value = "0";
         break;
 
+        case "X":
+          input.value = input.value.slice(0, -1);
+          break;
+
       default:
         input.value += element.value;
         break;
