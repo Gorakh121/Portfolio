@@ -18,7 +18,7 @@ nav {
   position: fixed;
   z-index: 30;
   justify-content: center;
-  background-color: rgb(23, 15, 15);
+  background-color: rgb(23, 15, 15;)
 }
 
 .logo {
@@ -115,11 +115,13 @@ nav {
 
 .bodyy {
   box-shadow: 4px 5px 10px rgb(44, 39, 39);
+  
   height: 95%;
 }
 
 .bodyy img {
   border-radius: 10px;
+  
   /* border-top-left-radius: 40px; */
   transition: transform 0.3s ease-in-out;
 }
@@ -133,7 +135,8 @@ nav {
 .image {
   z-index: 5;
   max-height: 300px;
-  box-shadow: 30px -19px 9px wheat;
+  /* box-shadow: 30px -19px 9px wheat; */
+  filter: drop-shadow(10px 7px 10px wheat);
 }
 
 .bodyy img:hover {
@@ -210,3 +213,20 @@ nav {
 .txt {
   padding-top: 10px;
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 420px;
+}
+
+#clock{
+  background-color: none;
+font-size: 20px;
+padding: 10px;
+
+}
+
