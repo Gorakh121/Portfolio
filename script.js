@@ -75,8 +75,32 @@ $(document).ready(function(){
 document.querySelector('.download-btn').addEventListener('click', function() {
     const link = document.createElement('a');
     link.href = 'path-to-your-pdf-file.pdf';
-    link.download = 'Prayas_cv.pdf';
+    link.download = 'Gorakh_Bikram_Baral_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
 });
+
+
+emailjs.init("joLJv9b5hDmauBafs");
+
+document
+  .getElementById("contact-form")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_amkpc47",
+        "template_lsis2yw",
+        this
+      )
+      .then(function () {
+        alert("Message sent successfully!");
+        document.getElementById("contact-form").reset();
+      })
+      .catch(function (error) {
+        console.error(error);
+        alert("Failed to send message.");
+      });
+  });
