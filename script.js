@@ -72,16 +72,6 @@ $(document).ready(function(){
     });
 });
 
-document.querySelector('.download-btn').addEventListener('click', function() {
-    const link = document.createElement('a');
-    link.href = 'path-to-your-pdf-file.pdf';
-    link.download = 'Gorakh_Bikram_Baral_CV.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-});
-
-
 emailjs.init("joLJv9b5hDmauBafs");
 
 document

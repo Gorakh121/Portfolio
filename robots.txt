@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.gorakhbikrambaral.com.np/sitemap.xml
